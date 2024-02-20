@@ -8,13 +8,13 @@ variable "region" {
   default     = "us-central1"
 }
 variable "bq_dataset_name" {
-  default     = "demo_dataset"
+  default     = "trips_data_all"
   description = "My BigQuery Dataset Name"
 }
 
 variable "gcs_bucket_name" {
   description = "My Storage Bucket Name"
-  default     = "terraform-demo-413217-terra-bucket"
+  default     = "dtc-data-lake-ny-rides"
 }
 
 variable "gcs_storage_class" {
