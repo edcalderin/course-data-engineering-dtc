@@ -1,8 +1,9 @@
 *.parquet
+*.csv
 
 # Terraform
 # Credentials
-**/*/terraform/keys/credentials.json
+**/*/keys/credentials.json
 
 # Local .terraform directories
 **/.terraform/*
