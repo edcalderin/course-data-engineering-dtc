@@ -1,5 +1,6 @@
 *.parquet
 *.csv
+mage-ai-terraform-templates
 
 # Terraform
 # Credentials
